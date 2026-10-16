@@ -1,0 +1,70 @@
+{
+  "titulo": "Autores y Colaboradores",
+  "boton_cerrar": "Cerrar ventana",
+  "etiquetas": {
+    "semblanza": "Semblanza",
+    "areas": "Áreas de especialidad",
+    "sin_foto": "Sin fotografía"
+  },
+  "secciones": [
+    {
+      "id": "docentes",
+      "pestana": "Autores",
+      "titulo": "Autores Académicos",
+      "descripcion": "Docentes del Instituto Politécnico Nacional y la Escuela Superior de Turismo responsables del contenido académico oficial.",
+      "tipo": "docente",
+      "personas": [
+        {
+          "grado": "M. en E.",
+          "nombre": "Hermelinda Patricia Leyva López",
+          "correo": "hleyval@ipn.mx",
+          "semblanza": [
+            "Profesora Coordinadora de la unidad de aprendizaje TIC aplicadas al Turismo en la Escuela Superior de Turismo (EST) del Instituto Politécnico Nacional. Especialista en la integración pedagógica de las Tecnologías de la Información y la Comunicación en el ámbito de la formación profesional y el sector turístico."
+          ],
+          "areas": [
+            "Tecnologías de la Información y Comunicación en Turismo",
+            "Estrategias de Enseñanza y Aprendizaje",
+            "Ambientes Virtuales de Aprendizaje",
+            "Educación Superior Tecnológica"
+          ]
+        },
+        {
+          "grado": "M. en C.",
+          "nombre": "Israel Salas Ramírez",
+          "correo": "isalasr@ipn.mx",
+          "foto": "assets/img/Israel_Salas_Ramirez.png",
+          "semblanza": [
+            "Profesor Colaborador de la unidad de aprendizaje TIC aplicadas al Turismo en la Escuela Superior de Turismo (EST) del Instituto Politécnico Nacional. Maestro en Ciencias e ingeniero con amplia trayectoria en tecnologías digitales, redes de comunicación, plataformas virtuales y recursos interactivos de aprendizaje."
+          ],
+          "areas": [
+            "Tecnologías de la Información y la Comunicación",
+            "Tratamiento y Análisis de Datos Numéricos",
+            "Plataformas Virtuales y Herramientas en Línea",
+            "Sistemas y Redes de Información"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colaboradores",
+      "pestana": "Colaboradores",
+      "titulo": "Equipo de Desarrollo y Maquetación",
+      "descripcion": "Estudiantes y desarrolladores que participaron en la maquetación web, diseño interactivo y desarrollo del Polilibro Académico.",
+      "tipo": "colaborador",
+      "personas": [
+        {
+          "nombre": "Israel Soto Peña",
+          "correo": "isotop2000@alumno.ipn.mx"
+        },
+        {
+          "nombre": "Aranza Alondra Muñoz Chávez",
+          "correo": "amunozc2002@alumno.ipn.mx"
+        },
+        {
+          "nombre": "Flores Madrigal Diego",
+          "correo": "dfloresm1300@alumno.ipn.mx"
+        }
+      ]
+    }
+  ]
+}

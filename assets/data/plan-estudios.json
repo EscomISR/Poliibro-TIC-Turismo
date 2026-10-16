@@ -1,0 +1,192 @@
+{
+  "titulo": "Programa Académico",
+  "boton_cerrar": "Cerrar ventana",
+  "archivo_pdf": "assets/docs/programa-logistica.pdf",
+  "datos_generales": {
+    "institucion": "Instituto Politécnico Nacional",
+    "secretaria": "Secretaría Académica · Dirección de Educación Superior",
+    "unidad_academica": "Escuela Superior de Turismo (EST)",
+    "programa_academico": "Licenciatura en Turismo",
+    "unidad_aprendizaje": "TIC aplicadas al turismo",
+    "semestre": "I Semestre",
+    "area_formacion": "Formación institucional",
+    "modalidad": "Escolarizada y No escolarizada",
+    "tipo": "Teórico-Práctica / Obligatoria",
+    "vigencia": "A partir de enero de 2020",
+    "creditos_tepic": "6.0",
+    "creditos_satca": "5.5",
+    "horas_teoria_semana": "2.0 h",
+    "horas_practica_semana": "2.0 h",
+    "horas_teoria_semestre": "36.0 h",
+    "horas_practica_semestre": "36.0 h",
+    "horas_autonomo_semestre": "20.0 h",
+    "horas_totales": "72.0 h"
+  },
+  "proposito": "Desarrolla aplicaciones de temas turísticos a partir de las Tecnologías de la Información y la Comunicación (TIC), la digitalización de la información y el software de tratamiento de datos numéricos.",
+  "intencion_educativa": "La unidad de aprendizaje contribuye al perfil de egreso del Licenciado en Turismo desarrollando habilidades de digitalización de la información, análisis y tratamiento de datos con uso de las TIC y herramientas tecnológicas para innovar y diseñar productos, servicios y organizaciones del ámbito turístico con ética, etiqueta en internet, respeto, tolerancia comunicación efectiva y trabajo en equipo.\n\nEsta unidad de aprendizaje de manera formal no tiene consecuente ni laterales, sin embargo, de manera transversal se relaciona con todas las unidades de aprendizaje ya que en la práctica se incorporan las TIC como herramientas de trabajo.",
+  "orientacion_didactica": {
+    "metodos_ensenanza": "Inductivo, Deductivo y Globalizado",
+    "estrategias_aprendizaje": "Aprendizaje mediado por TIC (indagación documental, organizadores gráficos, análisis de casos en espacios virtuales, desarrollo de propuestas de promoción turística en web/blog, solución de problemas numéricos en hojas de cálculo y bases de datos)"
+  },
+  "unidades_tematicas": [
+    {
+      "numero": "I",
+      "titulo": "Las TIC",
+      "competencia": "Analizan las Tecnologías de Información y Comunicación en el ámbito turístico a partir de sus fundamentos, la comunicación digital, los espacios de trabajo virtuales y el ámbito laboral.",
+      "horas_docente": "12.0 h Teoría / 12.0 h Práctica",
+      "horas_autonomo": "5.0 h",
+      "temas": [
+        "1.1 Fundamentos de las TIC",
+        "1.2 Principales tecnologías de la información y la comunicación",
+        "1.2.1 Correo electrónico y sus aplicaciones",
+        "1.2.2 Internet y world wide web (www)",
+        "1.2.3 Navegadores y sus características",
+        "1.2.4 Buscadores, metabuscadores y sus características",
+        "1.3 Las TIC en el ámbito laboral",
+        "1.3.1 Impacto en las organizaciones",
+        "1.3.2 Principales aportaciones",
+        "1.4 La comunicación digital",
+        "1.4.1 Impacto y aplicación",
+        "1.4.2 Herramientas para la comunicación: Chats, foros y blogs",
+        "1.5 Tecnologías utilizadas en el turismo",
+        "1.5.1 Puntos de venta (POS)",
+        "1.5.2 Sistemas de distribución global (GDS)",
+        "1.5.3 Planificador de recursos empresariales (ERP)",
+        "1.6 Espacios virtuales de trabajo",
+        "1.6.1 Wikis",
+        "1.6.2 Comunidades virtuales",
+        "1.6.3 Ambientes virtuales de aprendizaje (AVA)",
+        "1.6.4 Página Web Teoría (Creación en tema II)",
+        "1.6.5 Herramientas de aplicación en línea"
+      ],
+      "estrategias": "Indagación documental para organizadores gráficos digitales sobre TIC, investigación de temas turísticos sustentables y análisis de casos colaborativos en espacios virtuales.",
+      "evaluacion": "Evaluación diagnóstica, portafolio de evidencias: organizadores gráficos, reporte de prácticas de laboratorio TIC, evaluación escrita."
+    },
+    {
+      "numero": "II",
+      "titulo": "Digitalización de la información",
+      "competencia": "Produce páginas web a partir de la digitalización y almacenamiento de información.",
+      "horas_docente": "12.0 h Teoría / 12.0 h Práctica",
+      "horas_autonomo": "10.0 h",
+      "temas": [
+        "2.1 Digitalización de la información",
+        "2.1.1 Procesadores de texto",
+        "2.1.2 Editores de imágenes",
+        "2.1.3 Editores de audio",
+        "2.1.4 Editores de video",
+        "2.1.5 Integradores de medios",
+        "2.1.6 Utilerías típicas",
+        "2.2 Medios de almacenamiento",
+        "2.3 Creación de páginas web"
+      ],
+      "estrategias": "Estrategia mediada por TIC: creación y edición de contenidos digitales, estructuración de blog, presentaciones multimedia y publicación de páginas web orientadas al sector turístico.",
+      "evaluacion": "Portafolio de evidencias: página web, blog, presentaciones digitales con video y audio, medios de almacenamiento, propuestas de promoción turística, reporte de prácticas, evaluación escrita."
+    },
+    {
+      "numero": "III",
+      "titulo": "Software de tratamiento de datos numéricos",
+      "competencia": "Construye hojas de cálculo, gráficos y tablas dinámicas a partir de sus elementos, fórmulas elementales y funciones.",
+      "horas_docente": "12.0 h Teoría / 12.0 h Práctica",
+      "horas_autonomo": "5.0 h",
+      "temas": [
+        "3.1 Software para análisis e interpretación de la información y tratamiento de datos numéricos",
+        "3.1.1 Hoja de cálculo",
+        "3.1.2 Elementos",
+        "3.2 Operadores aritméticos",
+        "3.2.1 Orden de prioridad",
+        "3.3 Fórmulas elementales",
+        "3.4 Funciones",
+        "3.4.1 Estadísticas",
+        "3.4.2 Matemáticas",
+        "3.4.3 Trigonométricas",
+        "3.4.4 Financieras",
+        "3.4.5 Texto",
+        "3.4.6 Lógicas",
+        "3.4.7 Fecha y hora",
+        "3.4.8 Anidación",
+        "3.5 Elaboración de gráficos",
+        "3.5.1 Modificación de tamaño",
+        "3.5.2 Insertar imágenes en los gráficos",
+        "3.5.3 Insertar líneas y figuras geométricas",
+        "3.6 Tablas dinámicas",
+        "3.7 Impresión"
+      ],
+      "estrategias": "Solución de problemas estadísticos de bases de datos turísticas mediante fórmulas, funciones estadísticas y financieras, visualización en gráficos y generación de tablas dinámicas.",
+      "evaluacion": "Portafolio de evidencias: hojas de cálculo aplicadas, tablas dinámicas, gráficas estadísticas, reporte de prácticas, evaluación escrita."
+    }
+  ],
+  "evaluacion": [
+    "Evaluación diagnóstica (saberes previamente adquiridos)",
+    "Portafolio de evidencias formativas: organizadores gráficos, página web, presentaciones digitales con video, medios de almacenamiento, propuestas de promoción turística con TIC, resolución de casos en espacios virtuales (wikis, comunidades virtuales, AVA), hojas de cálculo, funciones, fórmulas, gráficas y tablas dinámicas",
+    "Reportes de prácticas (Laboratorio de TIC: 12 prácticas formativas)",
+    "Evaluación escrita sumativa"
+  ],
+  "bibliografia": [
+    {
+      "tipo": "Básica",
+      "autor": "Area, M., Gros, B. y Marzal, M.",
+      "anio": "2008",
+      "titulo": "Alfabetizaciones y tecnologías de la información y la comunicación",
+      "editorial": "Síntesis. ISBN 9788497569965"
+    },
+    {
+      "tipo": "Básica",
+      "autor": "Manso, M.",
+      "anio": "2011",
+      "titulo": "Las TIC en las aulas: Experiencias latinoamericanas",
+      "editorial": "Paidós. ISBN 9789501215335"
+    },
+    {
+      "tipo": "Básica",
+      "autor": "MediaActive",
+      "anio": "2016",
+      "titulo": "El gran libro de Office 2016",
+      "editorial": "Alfaomega. ISBN 9786075380308"
+    },
+    {
+      "tipo": "Básica",
+      "autor": "Peña, R.",
+      "anio": "2018",
+      "titulo": "Cómo enseñar utilizando las redes sociales",
+      "editorial": "Alfaomega. ISBN 9786077076209"
+    },
+    {
+      "tipo": "Básica",
+      "autor": "Richardson, W.",
+      "anio": "2010",
+      "titulo": "Blogs, wikis, podcasts and other powerful web tools for classrooms",
+      "editorial": "CORWIN. ISBN 9781412977470"
+    },
+    {
+      "tipo": "Consulta",
+      "autor": "Cohen, D. y Asín, E.",
+      "anio": "2014",
+      "titulo": "Tecnologías de la información. Estrategias y transformación en los negocios",
+      "editorial": "McGraw Hill. ISBN 978-6071512147"
+    },
+    {
+      "tipo": "Consulta",
+      "autor": "Gutiérrez, A.",
+      "anio": "2016",
+      "titulo": "Tecnologías de la Información: Un enfoque interdisciplinario",
+      "editorial": "Alfaomega. ISBN 978-6076226568"
+    },
+    {
+      "tipo": "Consulta",
+      "autor": "Ortiz, F.",
+      "anio": "2019",
+      "titulo": "Tecnologías de la información y la comunicación. Bachillerato",
+      "editorial": "Patria Educación. ISBN 9786075501642"
+    }
+  ],
+  "comision": {
+    "academia": "Academia de Ciencias Exactas",
+    "elaboro": [
+      "M. en E. Hermelinda Patricia Leyva López (Profesora Coordinadora)",
+      "M. en C. Israel Salas Ramírez (Profesor Colaborador)"
+    ],
+    "reviso": "M. en D.D.C. María Dolores García Martínez (Subdirectora Académica)",
+    "aprobo_consejo": "M. en D.D.C. Marcela Hernández Anaya (Presidente del CTCE / Directora)",
+    "autorizo": "Ing. Juan Manuel Velázquez Peto (Director de Educación Superior)"
+  }
+}

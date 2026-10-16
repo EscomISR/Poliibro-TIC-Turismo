@@ -1,0 +1,65 @@
+{
+  "id": "unidad-03",
+  "numero": 3,
+  "titulo": "Software de tratamiento de datos numéricos",
+  "descripcion": "Construye hojas de cálculo, gráficos y tablas dinámicas a partir de sus elementos, fórmulas elementales y funciones.",
+  "lema": "Tratamiento de datos, fórmulas, funciones avanzadas, tablas dinámicas y análisis cuantitativo para la toma de decisiones en turismo.",
+  "duracion_horas": 24.0,
+  "introduccion": [
+    "El análisis, procesamiento e interpretación de datos cuantitativos es una competencia clave para la gestión hotelera, de agencias de viajes, transportación y desarrollo de destinos turísticos.",
+    "En esta tercera unidad temática se profundiza en el uso de la hoja de cálculo como herramienta para el tratamiento de información numérica: desde el manejo de operadores y fórmulas, la aplicación de funciones estadísticas, lógicas y financieras, hasta la creación de gráficos y el diseño de tablas dinámicas para el análisis estadístico en turismo."
+  ],
+  "recorrido": "Aprende el manejo integral de la hoja de cálculo, la aplicación de operadores y fórmulas, el uso de funciones especializadas y anidadas, la elaboración de representaciones gráficas y la explotación de bases de datos mediante tablas dinámicas.",
+  "competencias": [
+    "Opera el entorno de trabajo y componentes clave de las hojas de cálculo.",
+    "Aplica operadores aritméticos y define fórmulas respetando el orden de prioridad operacional.",
+    "Emplea funciones matemáticas, estadísticas, lógicas, financieras, de texto, fecha y hora, y estructuras anidadas.",
+    "Diseña y personaliza gráficos con elementos visuales para comunicar indicadores turísticos.",
+    "Construye tablas dinámicas para el análisis y resumen multidimensional de datos del sector turístico.",
+    "Configura y prepara hojas de cálculo para su impresión y exportación profesional."
+  ],
+  "temas": [
+    {
+      "numero": "3.1",
+      "nombre": "Software para análisis e interpretación de la información y tratamiento de datos numéricos",
+      "sintesis": "Entorno de la hoja de cálculo, filas, columnas, celdas, rangos y elementos esenciales de la interfaz.",
+      "url": "unidades/unidad-03/temas/tema-03-01.html"
+    },
+    {
+      "numero": "3.2",
+      "nombre": "Operadores aritméticos",
+      "sintesis": "Operadores matemáticos, de comparación y concatenación, y su orden de prioridad en las operaciones.",
+      "url": "unidades/unidad-03/temas/tema-03-02.html"
+    },
+    {
+      "numero": "3.3",
+      "nombre": "Fórmulas elementales",
+      "sintesis": "Creación y edición de fórmulas elementales, sintaxis, referencias relativas, absolutas y mixtas.",
+      "url": "unidades/unidad-03/temas/tema-03-03.html"
+    },
+    {
+      "numero": "3.4",
+      "nombre": "Funciones",
+      "sintesis": "Funciones estadísticas, matemáticas, trigonométricas, financieras, texto, lógicas, fecha y hora, y anidación.",
+      "url": "unidades/unidad-03/temas/tema-03-04.html"
+    },
+    {
+      "numero": "3.5",
+      "nombre": "Elaboración de gráficos",
+      "sintesis": "Tipos de gráficos, modificación de tamaño, inserción de imágenes, líneas y figuras geométricas.",
+      "url": "unidades/unidad-03/temas/tema-03-05.html"
+    },
+    {
+      "numero": "3.6",
+      "nombre": "Tablas dinámicas",
+      "sintesis": "Diseño, estructuración de campos, filtros, segmentación y análisis interactivo de datos turísticos.",
+      "url": "unidades/unidad-03/temas/tema-03-06.html"
+    },
+    {
+      "numero": "3.7",
+      "nombre": "Impresión",
+      "sintesis": "Configuración de área de impresión, ajuste de escala, márgenes, encabezados y reportes finales.",
+      "url": "unidades/unidad-03/temas/tema-03-07.html"
+    }
+  ]
+}

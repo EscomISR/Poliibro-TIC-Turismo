@@ -1,0 +1,141 @@
+{
+  "titulo": "Prácticas de Laboratorio y Actividades de Aprendizaje",
+  "boton_cerrar": "Cerrar ventana",
+  "secciones": [
+    {
+      "id": "unidad-01",
+      "pestana": "Unidad 1",
+      "titulo": "Unidad 1: Las TIC",
+      "descripcion": "Prácticas de laboratorio y actividades formativas sobre fundamentos de TIC, organizadores gráficos digitales y comunicación en entornos turísticos.",
+      "nota": "Desarrolla habilidades de indagación y estructuración de información digital.",
+      "items": [
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 1",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 1: Organizadores gráficos digitales",
+          "descripcion": "Elaboración de mapas conceptuales, mentales y esquemas digitales sobre los fundamentos de las tecnologías de la información y la comunicación.",
+          "url": "unidades/unidad-01/index.html",
+          "icono": "fa-diagram-project"
+        }
+      ]
+    },
+    {
+      "id": "unidad-02",
+      "pestana": "Unidad 2",
+      "titulo": "Unidad 2: Digitalización de la información",
+      "descripcion": "Prácticas de laboratorio enfocadas en producción editorial digital, blog, producción web y sistemas de distribución turística.",
+      "nota": "Desarrollo de contenidos digitales multimedia aplicados a la promoción de destinos y servicios.",
+      "items": [
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 2",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 2: Procesador de textos",
+          "descripcion": "Formato avanzado, estilos, tablas, inserción de elementos gráficos y redacción de documentos turísticos institucionales.",
+          "url": "unidades/unidad-02/index.html",
+          "icono": "fa-file-lines"
+        },
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 3",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 3: Blog",
+          "descripcion": "Diseño, estructuración y publicación de un blog temático para la difusión y promoción turística sustentable.",
+          "url": "unidades/unidad-02/index.html",
+          "icono": "fa-blog"
+        },
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 4",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 4: Página web",
+          "descripcion": "Creación y maquetación de una página web orientada a la presentación de atractivos y servicios turísticos.",
+          "url": "unidades/unidad-02/index.html",
+          "icono": "fa-globe"
+        },
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 5",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 5: Presentaciones digitales con audio y video en medios digitales de almacenamiento",
+          "descripcion": "Integración multimedia de audio, video y diapositivas dinámicas alojadas en medios de almacenamiento locales y en la nube.",
+          "url": "unidades/unidad-02/index.html",
+          "icono": "fa-photo-film"
+        },
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 6",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 6: Sistemas de distribución global (GDS)",
+          "descripcion": "Operación y análisis funcional de los Sistemas de Distribución Global en la comercialización turística.",
+          "url": "unidades/unidad-02/index.html",
+          "icono": "fa-network-wired"
+        },
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 7",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 7: Elementos de la hoja de cálculo",
+          "descripcion": "Familiarización con la interfaz de la hoja de cálculo, tipos de datos, formato de celdas y estructura básica de trabajo.",
+          "url": "unidades/unidad-02/index.html",
+          "icono": "fa-table"
+        }
+      ]
+    },
+    {
+      "id": "unidad-03",
+      "pestana": "Unidad 3",
+      "titulo": "Unidad 3: Software de tratamiento de datos numéricos",
+      "descripcion": "Prácticas de laboratorio para análisis numérico, fórmulas, funciones avanzadas, visualización gráfica y tablas dinámicas en turismo.",
+      "nota": "Tratamiento cuantitativo de datos para la gestión y análisis de información turística.",
+      "items": [
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 8",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 8: Operadores aritméticos y su orden de prioridad",
+          "descripcion": "Construcción de expresiones aritméticas complejas aplicando el orden de precedencia de operadores.",
+          "url": "unidades/unidad-03/index.html",
+          "icono": "fa-calculator"
+        },
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 9",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 9: Funciones avanzadas y manejo de fórmulas",
+          "descripcion": "Aplicación de funciones estadísticas, matemáticas, financieras, lógicas y anidadas en escenarios turísticos.",
+          "url": "unidades/unidad-03/index.html",
+          "icono": "fa-square-root-variable"
+        },
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 10",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 10: Elaboración de gráficos",
+          "descripcion": "Diseño de gráficos estadísticos con inserción de imágenes, líneas y elementos geométricos explicativos.",
+          "url": "unidades/unidad-03/index.html",
+          "icono": "fa-chart-column"
+        },
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 11",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 11: Tablas dinámicas",
+          "descripcion": "Construcción de tablas dinámicas, filtros y segmentación de datos para el análisis estadístico de operaciones turísticas.",
+          "url": "unidades/unidad-03/index.html",
+          "icono": "fa-table-cells-large"
+        },
+        {
+          "tag": "Práctica de Laboratorio TIC",
+          "reactivos": "Práctica 12",
+          "tiempo": "2 horas",
+          "titulo": "Práctica 12: Impresión",
+          "descripcion": "Configuración de página, escala, áreas de impresión y exportación de reportes ejecutivos.",
+          "url": "unidades/unidad-03/index.html",
+          "icono": "fa-print"
+        }
+      ]
+    }
+  ]
+}

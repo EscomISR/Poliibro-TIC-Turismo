@@ -1,0 +1,58 @@
+{
+  "id": "unidad-01",
+  "numero": 1,
+  "titulo": "Las TIC",
+  "descripcion": "Analizan las Tecnologías de Información y Comunicación en el ámbito turístico a partir de sus fundamentos, la comunicación digital, los espacios de trabajo virtuales y el ámbito laboral.",
+  "lema": "Fundamentos de las TIC, comunicación digital, plataformas virtuales y tecnologías especializadas para el sector turístico.",
+  "duracion_horas": 24.0,
+  "introduccion": [
+    "Las Tecnologías de la Información y la Comunicación (TIC) constituyen la columna vertebral de la modernización, distribución y comercialización de los servicios turísticos a nivel global.",
+    "A lo largo de esta primera unidad temática se abordan los conceptos esenciales de las TIC, el funcionamiento de Internet y los motores de búsqueda, las dinámicas de comunicación sincrónica y asincrónica, los espacios virtuales colaborativos y las plataformas esenciales del ecosistema turístico tales como sistemas de punto de venta (POS), sistemas de distribución global (GDS) y sistemas ERP."
+  ],
+  "recorrido": "Explora los conceptos fundamentales de las TIC, sus principales aplicaciones de comunicación, el impacto organizativo en el ámbito laboral turístico, las herramientas digitales y los entornos de trabajo virtual y colaborativo.",
+  "competencias": [
+    "Analiza los fundamentos conceptuales y evolutivos de las Tecnologías de la Información y la Comunicación.",
+    "Aplica herramientas y servicios de comunicación digital en entornos organizacionales y turísticos.",
+    "Reconoce el impacto estratégico de las TIC en la productividad y gestión laboral turística.",
+    "Identifica tecnologías especializadas en turismo: terminales POS, sistemas GDS y plataformas ERP.",
+    "Aprovecha espacios virtuales de trabajo colaborativo, comunidades virtuales y Ambientes Virtuales de Aprendizaje (AVA)."
+  ],
+  "temas": [
+    {
+      "numero": "1.1",
+      "nombre": "Fundamentos de las TIC",
+      "sintesis": "Conceptos básicos, naturaleza, evolución y relevancia de las TIC en la sociedad de la información y el turismo.",
+      "url": "unidades/unidad-01/temas/tema-01-01.html"
+    },
+    {
+      "numero": "1.2",
+      "nombre": "Principales tecnologías de la información y la comunicación",
+      "sintesis": "Correo electrónico, arquitectura de Internet y World Wide Web, navegadores web, buscadores y metabuscadores.",
+      "url": "unidades/unidad-01/temas/tema-01-02.html"
+    },
+    {
+      "numero": "1.3",
+      "nombre": "Las TIC en el ámbito laboral",
+      "sintesis": "Impacto en las organizaciones turísticas, principales aportaciones, automatización y competitividad empresarial.",
+      "url": "unidades/unidad-01/temas/tema-01-03.html"
+    },
+    {
+      "numero": "1.4",
+      "nombre": "La comunicación digital",
+      "sintesis": "Impacto y aplicaciones de la comunicación digital en el sector turístico mediante chats, foros y blogs.",
+      "url": "unidades/unidad-01/temas/tema-01-04.html"
+    },
+    {
+      "numero": "1.5",
+      "nombre": "Tecnologías utilizadas en el turismo",
+      "sintesis": "Puntos de venta (POS), Sistemas de Distribución Global (GDS) y Planificación de Recursos Empresariales (ERP).",
+      "url": "unidades/unidad-01/temas/tema-01-05.html"
+    },
+    {
+      "numero": "1.6",
+      "nombre": "Espacios virtuales de trabajo",
+      "sintesis": "Wikis, comunidades virtuales, Ambientes Virtuales de Aprendizaje (AVA), teoría de páginas web y herramientas en línea.",
+      "url": "unidades/unidad-01/temas/tema-01-06.html"
+    }
+  ]
+}

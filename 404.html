@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página no encontrada (404) | TIC aplicadas al turismo</title>
+  <meta name="description" content="La página solicitada no existe o cambió de dirección. Vuelve a la portada, al catálogo de unidades o a cualquiera de las unidades del polilibro.">
+  <meta name="robots" content="noindex">
+
+  <script>
+    (function () {
+      var raiz = '/';
+      if (location.hostname.slice(-10) === '.github.io') {
+        var tramos = location.pathname.split('/').filter(Boolean);
+        if (tramos.length) raiz = '/' + tramos[0] + '/';
+      }
+      var base = document.createElement('base');
+      base.href = raiz;
+      document.head.appendChild(base);
+    })();
+  </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/comun.css">
+  <link rel="stylesheet" href="assets/css/unidades-base.css">
+  <link rel="stylesheet" href="assets/css/actividad.css">
+
+  <link rel="icon" type="image/png" href="assets/img/est.png">
+
+  <style>
+    .e-code {
+      font-size: clamp(3.5rem, 12vw, 6rem);
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.25rem;
+      color: var(--accent, #1B5E38);
+    }
+
+    .e-path {
+      display: block;
+      margin-top: 0.75rem;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.9rem;
+      word-break: break-all;
+      background: rgba(127, 127, 127, 0.12);
+    }
+
+    .e-units {
+      margin-top: 1.5rem;
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .e-unit-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color, rgba(0, 0, 0, 0.1));
+      background: var(--surface, #ffffff);
+      color: inherit;
+      text-decoration: none;
+      transition: background 0.15s, border-color 0.15s, transform 0.15s;
+    }
+
+    .e-unit-link:hover {
+      background: var(--surface-hover, #E1F0E6);
+      border-color: var(--accent, #1B5E38);
+      transform: translateX(4px);
+    }
+
+    .e-unit-link__num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: var(--primary, #1B5E38);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+
+    .e-unit-link__text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .e-unit-link__eyebrow {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted, #365543);
+    }
+
+    .e-unit-link__title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+
+<body class="u-body" data-root="">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <div class="a-layout">
+      <div class="a-main">
+        <header class="a-hero">
+          <p class="e-code" aria-hidden="true">404</p>
+          <h1 class="a-hero__title">Página no encontrada</h1>
+          <p class="a-hero__lead">
+            La dirección que abriste no existe en el polilibro o cambió de lugar.
+            Puedes regresar a la página anterior o ir a la portada.
+          </p>
+          <code class="e-path" id="rutaSolicitada" hidden></code>
+          <div class="a-hero__actions">
+            <a class="u-btn u-btn--primary" href="index.html">
+              <i class="fas fa-home" aria-hidden="true"></i> Portada
+            </a>
+            <a class="u-btn u-btn--secondary" href="unidades.html">
+              <i class="fas fa-layer-group" aria-hidden="true"></i> Ver unidades
+            </a>
+            <button class="u-btn u-btn--secondary" id="botonRegresar" type="button">
+              <i class="fas fa-arrow-left" aria-hidden="true"></i> Volver atrás
+            </button>
+          </div>
+        </header>
+
+        <section class="a-card" aria-labelledby="unidadesTitulo">
+          <h2 class="a-section-title" id="unidadesTitulo">Unidades del polilibro</h2>
+          <p class="a-side-text">Accede a las unidades temáticas de la materia:</p>
+          <div class="e-units">
+            <a class="e-unit-link" href="unidades/unidad-01/index.html">
+              <span class="e-unit-link__num" aria-hidden="true">I</span>
+              <span class="e-unit-link__text">
+                <span class="e-unit-link__eyebrow">Unidad I</span>
+                <span class="e-unit-link__title">Las TIC</span>
+              </span>
+            </a>
+            <a class="e-unit-link" href="unidades/unidad-02/index.html">
+              <span class="e-unit-link__num" aria-hidden="true">II</span>
+              <span class="e-unit-link__text">
+                <span class="e-unit-link__eyebrow">Unidad II</span>
+                <span class="e-unit-link__title">Digitalización de la información</span>
+              </span>
+            </a>
+            <a class="e-unit-link" href="unidades/unidad-03/index.html">
+              <span class="e-unit-link__num" aria-hidden="true">III</span>
+              <span class="e-unit-link__text">
+                <span class="e-unit-link__eyebrow">Unidad III</span>
+                <span class="e-unit-link__title">Software de tratamiento de datos numéricos</span>
+              </span>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <aside class="a-sidebar" aria-label="Otras secciones">
+        <section class="a-side-card a-side-card--dark" aria-labelledby="ayudaTitulo">
+          <h2 class="a-side-title" id="ayudaTitulo">¿Llegaste desde un enlace?</h2>
+          <p class="a-side-text">
+            Si el enlace venía de otra página del polilibro, avísale al equipo para corregirlo.
+            Mientras tanto, usa el menú superior o alguno de estos accesos.
+          </p>
+        </section>
+        <nav class="a-side-card" aria-labelledby="atajosTitulo">
+          <h2 class="a-side-title" id="atajosTitulo">Accesos rápidos</h2>
+          <a class="a-side-link" href="unidades.html">
+            <i class="fas fa-layer-group" aria-hidden="true"></i><span>Catálogo de unidades</span>
+          </a>
+          <a class="a-side-link" href="unidades/unidad-01/referencias.html">
+            <i class="fas fa-bookmark" aria-hidden="true"></i><span>Referencias</span>
+          </a>
+          <a class="a-side-link" href="index.html" data-modal="glosario">
+            <i class="fas fa-book" aria-hidden="true"></i><span>Glosario</span>
+          </a>
+          <a class="a-side-link" href="index.html" data-modal="autores">
+            <i class="fas fa-users" aria-hidden="true"></i><span>Autores</span>
+          </a>
+        </nav>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>TIC aplicadas al turismo · Polilibro académico · EST-IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var salida = document.getElementById('rutaSolicitada');
+      if (salida) {
+        salida.textContent = location.pathname + location.search;
+        salida.hidden = false;
+      }
+
+      var boton = document.getElementById('botonRegresar');
+      if (boton) {
+        if (history.length > 1) {
+          boton.addEventListener('click', function () { history.back(); });
+        } else {
+          boton.hidden = true;
+        }
+      }
+    })();
+  </script>
+
+  <script src="assets/js/data-manager.js"></script>
+  <script src="assets/js/componentes.js"></script>
+</body>
+
+</html>

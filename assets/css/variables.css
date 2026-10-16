@@ -1,0 +1,100 @@
+/* ==========================================================================
+   PALETA GLOBAL DEL POLILIBRO (TIC aplicadas al turismo)
+   Fuente de verdad visual basada en tonos verdes institucionales y blancos.
+   Diseñada con alto contraste WCAG AAA, óptima legibilidad y descanso visual
+   para recursos educativos de la Escuela Superior de Turismo (EST - IPN).
+   ========================================================================== */
+
+:root {
+  /* --- Fondos y Estructura Visual --- */
+  --bg-deep: #F2F7F4;       /* Fondo base suave con matiz salvia natural */
+  --bg-main: #F8FAF9;       /* Fondo principal de secciones y contenedores */
+  --bg-section: #E1EFE6;    /* Barra de navegación superior y cabeceras */
+  --bg-hero: #E8F3EC;       /* Fondo institucional del hero */
+  --surface: #FFFFFF;       /* Fondo blanco puro para tarjetas y modales */
+  --surface-hover: #E1F0E6; /* Fondo al pasar el cursor sobre tarjetas y controles */
+  --footer-bg: #E1EFE6;     /* Fondo del pie de página */
+
+  /* --- Colores Primarios, Secundarios y Acentos --- */
+  --primary: #1B5E38;       /* Verde bosque institucional de alto contraste */
+  --primary-hover: #113F25; /* Verde esmeralda profundo en hover */
+  --secondary: #1B5E38;     /* Alias secundario sincronizado con primario */
+  --secondary-hover: #113F25;
+  --accent: #23854F;        /* Verde medio de acento e iconografía */
+  --accent-hover: #1B5E38;
+  --primary-soft: color-mix(in srgb, var(--primary) 14%, transparent);
+  --accent-soft: color-mix(in srgb, var(--accent) 14%, transparent);
+  --info: var(--primary);
+
+  /* --- Botones y Llamados a la Acción (CTA) --- */
+  --cta-color: #FFFFFF;     /* Texto blanco de máximo contraste */
+  --cta-hover: #FFFFFF;     /* Hover para botones CTA */
+  --cta-bg: linear-gradient(135deg, var(--accent), var(--primary));
+
+  /* --- Tipografía y Textos (Alto Contraste y Cuidado Visual) --- */
+  --text-light: #102B1E;       /* Texto principal verde pizarra oscuro (sin fatiga visual) */
+  --text-muted-light: #365543; /* Texto secundario verde salvia profundo */
+  --text-soft: #204130;        /* Párrafos, citas y descripciones nítidas */
+  --text: var(--text-light);
+  --text-muted: var(--text-muted-light);
+  --white: #FFFFFF;
+  --dark: var(--bg-deep);
+  --gray: var(--text-muted-light);
+  --title-mid: #1B5E38;
+  --title-end: #23854F;
+
+  /* --- Bordes y Sombras --- */
+  --border-color: color-mix(in srgb, var(--text-light) 12%, transparent);
+  --border-soft: color-mix(in srgb, var(--text-light) 14%, transparent);
+  --border: var(--border-color);
+  --card-border: var(--border-color);
+  --shadow-color: #0E281A;
+  --shadow-soft: 0 8px 24px color-mix(in srgb, var(--shadow-color) 10%, transparent);
+  --shadow-card: 0 8px 25px color-mix(in srgb, var(--shadow-color) 12%, transparent);
+  --card-shadow: var(--shadow-card);
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  /* --- Gradientes Temáticos Globales --- */
+  --gradient-unit-1: linear-gradient(135deg, var(--bg-main), var(--surface));
+  --gradient-unit-2: linear-gradient(135deg, var(--surface), var(--bg-section));
+  --gradient-unit-3: linear-gradient(135deg, var(--bg-section), var(--surface-hover));
+  --page-bg: var(--bg-deep);
+
+  /* --- Paneles, Evaluaciones y Componentes Interactivos --- */
+  --bg: var(--bg-main);
+  --card-bg: var(--surface);
+  --soft-panel: color-mix(in srgb, var(--surface) 35%, transparent);
+  --submenu-bg: color-mix(in srgb, var(--shadow-color) 25%, transparent);
+  --intro-border: var(--accent);
+  --case-color: var(--primary);
+  --monster-color: var(--accent);
+
+  /* --- Barras de Desplazamiento (Scrollbars) --- */
+  --scroll-track: var(--footer-bg);
+  --scroll-thumb: #95C2A5;
+  --scroll-thumb-hover: var(--primary);
+
+  /* --- Iconografía --- */
+  --icon-blue: #1B5E38;
+  --icon-teal: #23854F;
+  --icon-bg-blue: color-mix(in srgb, var(--icon-blue) 14%, transparent);
+  --icon-bg-teal: color-mix(in srgb, var(--icon-teal) 14%, transparent);
+
+  /* --- Estados Semánticos --- */
+  --success: #2E7D32;
+  --warning: #B77000;
+  --danger: #C62828;
+  --quiz-correct: var(--success);
+  --quiz-incorrect: var(--danger);
+
+  /* --- Compatibilidad Legacy --- */
+  --azul: var(--primary);
+  --azul-oscuro: var(--bg-main);
+  --rojo: var(--danger);
+  --gris: var(--surface);
+  --borde: var(--border-color);
+  --texto: var(--text-light);
+}

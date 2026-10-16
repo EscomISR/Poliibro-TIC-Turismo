@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "modoPrueba": true,
+  "titulo": "Examen diagnóstico",
+  "descripcion": "Evaluación diagnóstica de saberes previos para la unidad de aprendizaje TIC aplicadas al Turismo (Licenciatura en Turismo · Escuela Superior de Turismo).",
+  "configuracion": {
+    "mostrarResultado": true,
+    "cantidadPreguntas": 10,
+    "mezclarPreguntas": false,
+    "mezclarOpciones": false,
+    "endpointEnvio": ""
+  },
+  "preguntas": [
+    {
+      "id": "diag-tic-01",
+      "numero": 1,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué significan las siglas TIC y cuál es su rol esencial en el sector turístico?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Técnicas de Información Contable, útiles solo para arqueos de caja en hoteles." },
+        { "id": "b", "texto": "Tecnologías de la Información y la Comunicación, que facilitan la gestión, distribución y comercialización de servicios turísticos." },
+        { "id": "c", "texto": "Transportación Internacional y Comercial, referida exclusivamente a aerolíneas." },
+        { "id": "d", "texto": "Tratamiento de Imágenes Computarizadas para folletos impresos." }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-tic-02",
+      "numero": 2,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es la diferencia entre un navegador web y un buscador (motor de búsqueda)?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "El navegador es el programa que interpreta el código web para mostrar páginas, mientras que el buscador es un sitio web que indexa y localiza información en Internet." },
+        { "id": "b", "texto": "Son exactamente lo mismo y cumplen idéntica función técnica." },
+        { "id": "c", "texto": "El buscador es un dispositivo de hardware y el navegador es una hoja de cálculo." },
+        { "id": "d", "texto": "El navegador únicamente sirve para enviar correos electrónicos." }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-tic-03",
+      "numero": 3,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué es un Sistema de Distribución Global (GDS) en la industria turística?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Una red computarizada que permite a las agencias de viajes acceder a reservas de vuelos, hoteles y autos en tiempo real a nivel mundial (ej. Amadeus, Sabre)." },
+        { "id": "b", "texto": "Un procesador de textos para redactar itinerarios de viaje." },
+        { "id": "c", "texto": "Un formato de archivo comprimido para imágenes turísticas." },
+        { "id": "d", "texto": "Una impresora de boletos de avión físicos." }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-tic-04",
+      "numero": 4,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál de las siguientes herramientas corresponde a un medio de comunicación sincrónica en línea?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Correo electrónico tradicional." },
+        { "id": "b", "texto": "Foro de discusión temática." },
+        { "id": "c", "texto": "Chat o videollamada en tiempo real." },
+        { "id": "d", "texto": "Entrada de un blog turístico." }
+      ],
+      "respuestaCorrecta": "c"
+    },
+    {
+      "id": "diag-tic-05",
+      "numero": 5,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué elemento es fundamental para estructurar una página web estándar?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "El lenguaje de marcado HTML." },
+        { "id": "b", "texto": "Una fórmula trigonométrica en Excel." },
+        { "id": "c", "texto": "Un cable de fibra óptica submarino." },
+        { "id": "d", "texto": "Un lector de código de barras manual." }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-tic-06",
+      "numero": 6,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es la principal ventaja del almacenamiento en la nube (Cloud Storage) para una empresa turística?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Acceso remoto y sincronizado a los archivos desde cualquier dispositivo con conexión a Internet, con respaldos automáticos." },
+        { "id": "b", "texto": "Que no requiere electricidad ni ningún tipo de conexión a la red." },
+        { "id": "c", "texto": "Que sustituye la necesidad de contar con personal capacitado en turismo." },
+        { "id": "d", "texto": "Que solo permite almacenar texto sin formato." }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-tic-07",
+      "numero": 7,
+      "tipo": "opcion-multiple",
+      "enunciado": "En una hoja de cálculo, ¿con qué símbolo debe iniciar obligatoriamente cualquier fórmula o función para que sea calculada?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Con el signo igual (=)." },
+        { "id": "b", "texto": "Con un signo de interrogación (?)." },
+        { "id": "c", "texto": "Con un asterisco (*)." },
+        { "id": "d", "texto": "Con dos puntos (:)." }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-tic-08",
+      "numero": 8,
+      "tipo": "opcion-multiple",
+      "enunciado": "En la jerarquía de operadores matemáticos en hojas de cálculo, ¿cuál de las siguientes operaciones tiene mayor prioridad de ejecución si no hay paréntesis?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "La suma (+) y la resta (-)." },
+        { "id": "b", "texto": "La multiplicación (*) y la división (/)." },
+        { "id": "c", "texto": "La concatenación (&)." },
+        { "id": "d", "texto": "Todas se ejecutan en orden estrictamente aleatorio." }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-tic-09",
+      "numero": 9,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es el propósito principal de una tabla dinámica en el análisis de datos turísticos?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Resumir, agrupar, filtrar y cruzar grandes volúmenes de datos rápidamente sin modificar la base original." },
+        { "id": "b", "texto": "Crear animaciones 3D de paisajes turísticos." },
+        { "id": "c", "texto": "Bloquear el acceso de usuarios al sistema operativo." },
+        { "id": "d", "texto": "Enviar correos masivos a clientes potenciales." }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-tic-10",
+      "numero": 10,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué es un Punto de Venta (POS) en un hotel o restaurante?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "El sistema informático y hardware mediante el cual se registran pedidos, cobranzas, comandas y emisión de comprobantes fiscales." },
+        { "id": "b", "texto": "El folleto impreso que se entrega en la recepción." },
+        { "id": "c", "texto": "La contraseña de la red Wi-Fi de huéspedes." },
+        { "id": "d", "texto": "Un tipo de cable de red utilizado en servidores." }
+      ],
+      "respuestaCorrecta": "a"
+    }
+  ]
+}
