@@ -1,96 +1,161 @@
 /* ==========================================================================
-   PALETA GLOBAL DEL POLILIBRO (TIC aplicadas al turismo)
-   Fuente de verdad visual basada en tonos verdes institucionales y blancos.
-   Diseñada con alto contraste WCAG AAA, óptima legibilidad y descanso visual
-   para recursos educativos de la Escuela Superior de Turismo (EST - IPN).
+   PALETA CROMÁTICA GLOBAL DEL POLILIBRO (TIC aplicadas al turismo)
+   Escuela Superior de Turismo (EST - IPN)
+
+   IDENTIDAD: Verde Petróleo + Esmeralda + Tonalidades Complementarias (Oro / Ámbar).
+   Diseño moderno, elegante y de rigor académico donde los colores estructuran
+   toda la experiencia visual sin fondos blancos planos.
+
+   SISTEMA COHERENTE CENTRALIZADO:
+   Modificar las variables maestras HSL (--petroleo-h, --esmeralda-h, --oro-h)
+   recalcula automáticamente todas las superficies, acentos, degradados y bordes.
    ========================================================================== */
 
 :root {
-  /* --- Fondos y Estructura Visual (Fresh Green Armonioso) --- */
-  --bg-deep: #E8F5E9;       /* Fondo base visible: Fresh Green suave y relajante (Material Green 50) */
-  --bg-main: #F4FAF5;       /* Fondo secundario de transiciones y contenedores */
-  --bg-section: #C8E6C9;    /* Barra de navegación superior y pie de página (Material Green 100) */
-  --bg-hero: linear-gradient(135deg, #FFFFFF 0%, #E8F5E9 100%); /* Fondo hero luminoso y elegante */
-  --surface: #FFFFFF;       /* Fondo blanco puro para tarjetas, artículos y modales */
-  --surface-hover: #D7EED9; /* Fondo interactivo suave al pasar el cursor */
-  --footer-bg: #C8E6C9;     /* Fondo del pie de página sincronizado */
+  /* ==========================================================================
+     1. MATRICES MAESTRAS HSL (Puntos de control global)
+     ========================================================================== */
+  /* Matiz Verde Petróleo (Cyan/Azul verdoso profundo y sobrio) */
+  --petroleo-h: 185;
+  --petroleo-s: 56%;
 
-  /* --- Colores Primarios, Secundarios y Acentos --- */
-  --primary: #1B5E20;       /* Verde bosque institucional profundo de máximo contraste (Green 900) */
-  --primary-hover: #0D3813; /* Verde ultra-profundo en hover */
-  --secondary: #2E7D32;     /* Verde institucional secundario (Green 800) */
-  --secondary-hover: #1B5E20;
-  --accent: #388E3C;        /* Verde medio vibrante de acento e iconografía (Green 700) */
-  --accent-hover: #2E7D32;
-  --primary-soft: color-mix(in srgb, var(--primary) 12%, transparent);
-  --accent-soft: color-mix(in srgb, var(--accent) 14%, transparent);
-  --info: var(--primary);
+  /* Matiz Esmeralda (Verde joya vibrante e institucional) */
+  --esmeralda-h: 156;
+  --esmeralda-s: 74%;
 
-  /* --- Botones y Llamados a la Acción (CTA) --- */
-  --cta-color: #FFFFFF;     /* Texto blanco de máximo contraste */
-  --cta-hover: #FFFFFF;     /* Hover para botones CTA */
-  --cta-bg: linear-gradient(135deg, var(--accent), var(--primary));
+  /* Matiz Complementario (Ámbar / Oro académico para jerarquía y detalles) */
+  --oro-h: 38;
+  --oro-s: 88%;
 
-  /* --- Tipografía y Textos (Alto Contraste y Cuidado Visual) --- */
-  --text-light: #0E2E18;       /* Texto principal verde pizarra oscuro (máxima legibilidad) */
-  --text-muted-light: #285436; /* Texto secundario verde salvia profundo */
-  --text-soft: #164023;        /* Párrafos, citas y descripciones nítidas */
+  /* Matiz de Alerta / Peligro (Coral) */
+  --coral-h: 10;
+  --coral-s: 82%;
+
+  /* ==========================================================================
+     2. GAMA VERDE PETRÓLEO (Lienzos, Estructura y Superficies Elevadas)
+     ========================================================================== */
+  --color-petroleo-deep:    hsl(var(--petroleo-h), var(--petroleo-s), 7.5%); /* #071F24: Fondo base del sitio */
+  --color-petroleo-base:    hsl(var(--petroleo-h), var(--petroleo-s), 10.5%);/* #0B2B32: Contenedores principales */
+  --color-petroleo-nav:     hsl(var(--petroleo-h), var(--petroleo-s), 12.5%);/* #0D333B: Barra de navegación y pie */
+  --color-petroleo-surface: hsl(var(--petroleo-h), var(--petroleo-s), 14.5%);/* #0F3B44: Tarjetas, artículos y modales */
+  --color-petroleo-hover:   hsl(var(--petroleo-h), var(--petroleo-s), 19%);  /* #154D59: Hover de tarjetas y controles */
+  --color-petroleo-inset:   hsl(var(--petroleo-h), var(--petroleo-s), 9%);   /* #09242A: Insets y áreas secundarias */
+
+  /* ==========================================================================
+     3. GAMA ESMERALDA (Identidad, Acción, Enlaces y Resplandor)
+     ========================================================================== */
+  --color-esmeralda-deep:   hsl(var(--esmeralda-h), var(--esmeralda-s), 28%); /* #065F46: Esmeralda profundo */
+  --color-esmeralda-base:   hsl(var(--esmeralda-h), var(--esmeralda-s), 38%); /* #059669: Esmeralda principal */
+  --color-esmeralda-light:  hsl(var(--esmeralda-h), var(--esmeralda-s), 50%); /* #10B981: Esmeralda luminoso interactivo */
+  --color-esmeralda-glow:   hsl(var(--esmeralda-h), var(--esmeralda-s), 64%); /* #34D399: Esmeralda menta para acentos */
+  --color-esmeralda-soft:   hsl(var(--esmeralda-h), var(--esmeralda-s), 84%); /* #A7F3D0: Tono menta suave */
+
+  /* ==========================================================================
+     4. TONALIDADES COMPLEMENTARIAS Y AUXILIARES
+     ========================================================================== */
+  --color-oro-academico:    hsl(var(--oro-h), var(--oro-s), 52%);            /* #F59E0B: Oro complementario */
+  --color-oro-soft:         hsl(var(--oro-h), var(--oro-s), 65%);            /* #FBBF24: Oro suave */
+  --color-jade-acento:      hsl(172, 68%, 50%);                               /* #14B8A6: Jade oceánico */
+  --color-coral:            hsl(var(--coral-h), var(--coral-s), 60%);         /* #F87171: Coral para estados de error */
+
+  /* ==========================================================================
+     5. MAPEO SEMÁNTICO PRINCIPAL (Compatibilidad y Cascada Universal)
+     ========================================================================== */
+  /* Fondos y Estructura Visual */
+  --bg-deep: var(--color-petroleo-deep);
+  --bg-main: var(--color-petroleo-base);
+  --bg-section: var(--color-petroleo-nav);
+  --bg-hero: linear-gradient(145deg, var(--color-petroleo-surface), var(--color-petroleo-main));
+  --surface: var(--color-petroleo-surface);
+  --surface-hover: var(--color-petroleo-hover);
+  --footer-bg: var(--color-petroleo-nav);
+
+  /* Colores Primarios, Secundarios y Acentos */
+  --primary: var(--color-esmeralda-light);
+  --primary-hover: var(--color-esmeralda-glow);
+  --secondary: var(--color-esmeralda-base);
+  --secondary-hover: var(--color-esmeralda-light);
+  --accent: var(--color-esmeralda-glow);
+  --accent-hover: var(--color-esmeralda-light);
+  --primary-soft: color-mix(in srgb, var(--primary) 18%, transparent);
+  --accent-soft: color-mix(in srgb, var(--accent) 18%, transparent);
+  --info: var(--color-esmeralda-light);
+
+  /* Botones y Llamados a la Acción (CTA) */
+  --cta-color: #031417;     /* Petróleo ultra-oscuro sobre gradiente esmeralda para contraste óptimo */
+  --cta-hover: #031417;
+  --cta-bg: linear-gradient(135deg, var(--color-esmeralda-glow), var(--color-esmeralda-base));
+  --btn-bg: var(--cta-bg);
+  --btn-bg-hover: linear-gradient(135deg, #6EE7B7, var(--color-esmeralda-light));
+  --btn-text: var(--cta-color);
+  --btn-alt-bg: var(--surface);
+  --btn-alt-bg-hover: var(--surface-hover);
+  --btn-alt-text: var(--text-light);
+
+  /* Tipografía y Textos (Alto Contraste y Cuidado Visual) */
+  --text-light: #F0FDF9;       /* Blanco menta perlado de máxima legibilidad (WCAG AAA > 14:1) */
+  --text-soft: #D1FAE5;        /* Menta suave para lecturas académicas extensas (WCAG AAA > 12:1) */
+  --text-muted-light: #8EC5BA; /* Verde salvia / petróleo suave para metadatos y notas */
   --text: var(--text-light);
   --text-muted: var(--text-muted-light);
+  --text-label: var(--color-esmeralda-glow);
   --white: #FFFFFF;
   --dark: var(--bg-deep);
   --gray: var(--text-muted-light);
-  --title-mid: var(--primary);
-  --title-end: var(--accent);
+  --title-mid: var(--color-esmeralda-light);
+  --title-end: var(--color-esmeralda-glow);
 
-  /* --- Bordes y Sombras --- */
-  --border-color: color-mix(in srgb, var(--primary) 16%, transparent);
-  --border-soft: color-mix(in srgb, var(--primary) 10%, transparent);
+  /* Bordes y Sombras */
+  --border-color: color-mix(in srgb, var(--color-esmeralda-glow) 20%, transparent);
+  --border-soft: color-mix(in srgb, var(--color-esmeralda-glow) 12%, transparent);
   --border: var(--border-color);
   --card-border: var(--border-color);
-  --shadow-color: #0A2412;
-  --shadow-soft: 0 8px 24px color-mix(in srgb, var(--shadow-color) 8%, transparent);
-  --shadow-card: 0 8px 25px color-mix(in srgb, var(--shadow-color) 10%, transparent);
+  --shadow-color: #02090B;
+  --shadow-soft: 0 10px 28px rgba(2, 9, 11, 0.45);
+  --shadow-card: 0 14px 34px rgba(2, 9, 11, 0.55), 0 1px 0 color-mix(in srgb, var(--color-esmeralda-glow) 14%, transparent) inset;
   --card-shadow: var(--shadow-card);
   --radius-sm: 6px;
   --radius-md: 12px;
   --radius-lg: 18px;
   --radius-pill: 999px;
 
-  /* --- Gradientes Temáticos Globales --- */
-  --gradient-unit-1: linear-gradient(135deg, #FFFFFF, #E8F5E9);
-  --gradient-unit-2: linear-gradient(135deg, #E8F5E9, #C8E6C9);
-  --gradient-unit-3: linear-gradient(135deg, #C8E6C9, #D7EED9);
+  /* Gradientes Temáticos Globales */
+  --gradient-unit-1: linear-gradient(135deg, var(--color-petroleo-surface), var(--color-petroleo-base));
+  --gradient-unit-2: linear-gradient(135deg, var(--color-petroleo-base), var(--color-petroleo-nav));
+  --gradient-unit-3: linear-gradient(135deg, var(--color-petroleo-nav), var(--color-petroleo-surface));
   --page-bg: var(--bg-deep);
 
-  /* --- Paneles, Evaluaciones y Componentes Interactivos --- */
+  /* Paneles, Evaluaciones y Componentes Interactivos */
   --bg: var(--bg-main);
   --card-bg: var(--surface);
-  --soft-panel: color-mix(in srgb, var(--surface) 50%, transparent);
-  --submenu-bg: color-mix(in srgb, var(--shadow-color) 25%, transparent);
-  --intro-border: var(--accent);
-  --case-color: var(--primary);
-  --monster-color: var(--accent);
+  --soft-panel: color-mix(in srgb, var(--surface) 60%, transparent);
+  --submenu-bg: rgba(2, 9, 11, 0.78);
+  --intro-border: var(--color-esmeralda-glow);
+  --case-color: var(--color-esmeralda-light);
+  --monster-color: var(--color-oro-academico);
 
-  /* --- Barras de Desplazamiento (Scrollbars) --- */
-  --scroll-track: var(--bg-deep);
-  --scroll-thumb: #81C784;
-  --scroll-thumb-hover: var(--primary);
+  /* Barras de Desplazamiento (Scrollbars) */
+  --scroll-track: var(--color-petroleo-deep);
+  --scroll-thumb: var(--color-petroleo-hover);
+  --scroll-thumb-hover: var(--color-esmeralda-base);
 
-  /* --- Iconografía --- */
-  --icon-blue: var(--primary);
-  --icon-teal: var(--accent);
-  --icon-bg-blue: color-mix(in srgb, var(--icon-blue) 12%, transparent);
-  --icon-bg-teal: color-mix(in srgb, var(--icon-teal) 12%, transparent);
+  /* Iconografía */
+  --icon-blue: var(--color-esmeralda-light);
+  --icon-teal: var(--color-esmeralda-glow);
+  --icon-bg-blue: color-mix(in srgb, var(--icon-blue) 16%, transparent);
+  --icon-bg-teal: color-mix(in srgb, var(--icon-teal) 16%, transparent);
 
-  /* --- Estados Semánticos --- */
-  --success: #2E7D32;
-  --warning: #B77000;
-  --danger: #C62828;
+  /* Estados Semánticos */
+  --success: var(--color-esmeralda-light);
+  --warning: var(--color-oro-academico);
+  --danger: var(--color-coral);
   --quiz-correct: var(--success);
   --quiz-incorrect: var(--danger);
 
-  /* --- Compatibilidad Legacy --- */
+  /* Compatibilidad y Acentos Especiales */
+  --accent-gold: var(--color-oro-academico);
+  --accent-gold-soft: color-mix(in srgb, var(--color-oro-academico) 18%, transparent);
+  --accent-marine: var(--color-jade-acento);
   --azul: var(--primary);
   --azul-oscuro: var(--bg-main);
   --rojo: var(--danger);

@@ -40,7 +40,7 @@ a:hover {
 
 ::selection {
   background: var(--primary);
-  color: var(--footer-bg);
+  color: var(--cta-color);
 }
 
 /* Scrollbar global uniforme con la paleta */
