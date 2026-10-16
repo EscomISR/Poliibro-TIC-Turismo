@@ -23,31 +23,51 @@
       "numero": "3.1",
       "nombre": "Software para análisis e interpretación de la información y tratamiento de datos numéricos",
       "sintesis": "Entorno de la hoja de cálculo, filas, columnas, celdas, rangos y elementos esenciales de la interfaz.",
-      "url": "unidades/unidad-03/temas/tema-03-01.html"
+      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.1",
+        "url": "unidades/unidad-03/actividades/actividad-3-1.html"
+      }
     },
     {
       "numero": "3.2",
       "nombre": "Operadores aritméticos",
       "sintesis": "Operadores matemáticos, de comparación y concatenación, y su orden de prioridad en las operaciones.",
-      "url": "unidades/unidad-03/temas/tema-03-02.html"
+      "url": "unidades/unidad-03/temas/tema-03-02.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.2",
+        "url": "unidades/unidad-03/actividades/actividad-3-2.html"
+      }
     },
     {
       "numero": "3.3",
       "nombre": "Fórmulas elementales",
       "sintesis": "Creación y edición de fórmulas elementales, sintaxis, referencias relativas, absolutas y mixtas.",
-      "url": "unidades/unidad-03/temas/tema-03-03.html"
+      "url": "unidades/unidad-03/temas/tema-03-03.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.3",
+        "url": "unidades/unidad-03/actividades/actividad-3-3.html"
+      }
     },
     {
       "numero": "3.4",
       "nombre": "Funciones",
       "sintesis": "Funciones estadísticas, matemáticas, trigonométricas, financieras, texto, lógicas, fecha y hora, y anidación.",
-      "url": "unidades/unidad-03/temas/tema-03-04.html"
+      "url": "unidades/unidad-03/temas/tema-03-04.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.4",
+        "url": "unidades/unidad-03/actividades/actividad-3-4.html"
+      }
     },
     {
       "numero": "3.5",
       "nombre": "Elaboración de gráficos",
       "sintesis": "Tipos de gráficos, modificación de tamaño, inserción de imágenes, líneas y figuras geométricas.",
-      "url": "unidades/unidad-03/temas/tema-03-05.html"
+      "url": "unidades/unidad-03/temas/tema-03-05.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.5",
+        "url": "unidades/unidad-03/actividades/actividad-3-5.html"
+      }
     },
     {
       "numero": "3.6",
@@ -61,5 +81,10 @@
       "sintesis": "Configuración de área de impresión, ajuste de escala, márgenes, encabezados y reportes finales.",
       "url": "unidades/unidad-03/temas/tema-03-07.html"
     }
-  ]
+  ],
+  "actividad_final": {
+    "nombre": "Actividad integradora final y simulador",
+    "descripcion": "Resolución de casos y simulador interactivo de toma de decisiones de la unidad.",
+    "url": "unidades/unidad-03/actividades/actividad-final.html"
+  }
 }
