@@ -210,11 +210,29 @@
           "icono": "fa-recycle"
         },
         {
-          "tag": "Simulador y Laboratorio ESIT",
+          "tag": "Actividad formativa",
+          "reactivos": "8 reactivos al azar",
+          "tiempo": "10 min",
+          "titulo": "Actividad 3.6: Tablas dinámicas",
+          "descripcion": "Diseño, estructuración de campos, filtros, segmentación y análisis interactivo de datos turísticos.",
+          "url": "unidades/unidad-03/actividades/actividad-3-6.html",
+          "icono": "fa-table"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "8 reactivos al azar",
+          "tiempo": "10 min",
+          "titulo": "Actividad 3.7: Impresión",
+          "descripcion": "Configuración de área de impresión, ajuste de escala, márgenes, encabezados y reportes finales.",
+          "url": "unidades/unidad-03/actividades/actividad-3-7.html",
+          "icono": "fa-print"
+        },
+        {
+          "tag": "Simulador y Laboratorio interactivo",
           "reactivos": "Simulador interactivo + 4 Fases",
           "tiempo": "35 min",
-          "titulo": "Simulador y Caso: Negocio 'Confecciones ESIT'",
-          "descripcion": "Explosión de requerimientos netos (BOM), matriz multicriterio dinámica para 3 proveedores y negociación contractual de calidad AQL.",
+          "titulo": "Simulador y Caso práctico de la unidad",
+          "descripcion": "Resolución de requerimientos operativos, análisis numérico y toma de decisiones prácticas.",
           "url": "unidades/unidad-03/actividades/actividad-final.html",
           "icono": "fa-handshake",
           "destacada": true

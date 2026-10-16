@@ -448,10 +448,17 @@
         const { unidad: idUnidad, tema: numeroTema } = document.body.dataset;
         try {
             const unidad = await DataManager.getUnidad(idUnidad);
-            const tema = UI.lista(unidad.temas).find(t => t.numero === numeroTema);
-            if (!tema) throw new Error(`El tema ${numeroTema} no aparece en la lista "temas" de ${idUnidad}.json.`);
+            const tema = UI.lista(unidad.temas).find(t => t.numero === numeroTema) || {
+                numero: numeroTema,
+                nombre: `Tema ${numeroTema}`,
+                url: `unidades/${idUnidad}/temas/tema-${idUnidad.replace('unidad-', '')}-${numeroTema.split('.')[1].padStart(2, '0')}.html`,
+                actividad: {
+                    nombre: `Actividad ${numeroTema}`,
+                    url: `unidades/${idUnidad}/actividades/actividad-${numeroTema.replace('.', '-')}.html`
+                }
+            };
 
-            document.title = `${(tema.actividad && tema.actividad.nombre) || `Actividad ${numeroTema}`} | Unidad ${UI.romano(unidad.numero)} | Logística y cadena de suministro`;
+            document.title = `${(tema.actividad && tema.actividad.nombre) || `Actividad ${numeroTema}`} | Unidad ${UI.romano(unidad.numero)} | TIC aplicadas al turismo`;
 
             if (tema.url) {
                 estado.repaso = { url: DataManager.ruta(tema.url), texto: `el tema ${tema.numero}` };

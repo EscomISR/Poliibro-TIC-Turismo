@@ -73,13 +73,21 @@
       "numero": "3.6",
       "nombre": "Tablas dinámicas",
       "sintesis": "Diseño, estructuración de campos, filtros, segmentación y análisis interactivo de datos turísticos.",
-      "url": "unidades/unidad-03/temas/tema-03-06.html"
+      "url": "unidades/unidad-03/temas/tema-03-06.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.6",
+        "url": "unidades/unidad-03/actividades/actividad-3-6.html"
+      }
     },
     {
       "numero": "3.7",
       "nombre": "Impresión",
       "sintesis": "Configuración de área de impresión, ajuste de escala, márgenes, encabezados y reportes finales.",
-      "url": "unidades/unidad-03/temas/tema-03-07.html"
+      "url": "unidades/unidad-03/temas/tema-03-07.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.7",
+        "url": "unidades/unidad-03/actividades/actividad-3-7.html"
+      }
     }
   ],
   "actividad_final": {
