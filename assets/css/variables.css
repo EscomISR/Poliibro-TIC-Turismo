@@ -6,23 +6,23 @@
    ========================================================================== */
 
 :root {
-  /* --- Fondos y Estructura Visual (Gama Fresh Green #81C784 - #388E3C) --- */
-  --bg-deep: #81C784;       /* Fondo base visible: Fresh Green (#81C784) */
-  --bg-main: #A5D6A7;       /* Fondo secundario de transiciones y contenedores */
-  --bg-section: #66BB6A;    /* Barra de navegación superior, divisores y subcabeceras */
-  --bg-hero: linear-gradient(135deg, #81C784, #A5D6A7); /* Fondo hero fresco y vibrante */
-  --surface: #FFFFFF;       /* Fondo blanco puro para tarjetas y modales */
-  --surface-hover: #C8E6C9; /* Fondo interactivo al pasar el cursor */
-  --footer-bg: #66BB6A;     /* Fondo del pie de página */
+  /* --- Fondos y Estructura Visual (Fresh Green Armonioso) --- */
+  --bg-deep: #E8F5E9;       /* Fondo base visible: Fresh Green suave y relajante (Material Green 50) */
+  --bg-main: #F4FAF5;       /* Fondo secundario de transiciones y contenedores */
+  --bg-section: #C8E6C9;    /* Barra de navegación superior y pie de página (Material Green 100) */
+  --bg-hero: linear-gradient(135deg, #FFFFFF 0%, #E8F5E9 100%); /* Fondo hero luminoso y elegante */
+  --surface: #FFFFFF;       /* Fondo blanco puro para tarjetas, artículos y modales */
+  --surface-hover: #D7EED9; /* Fondo interactivo suave al pasar el cursor */
+  --footer-bg: #C8E6C9;     /* Fondo del pie de página sincronizado */
 
   /* --- Colores Primarios, Secundarios y Acentos --- */
-  --primary: #388E3C;       /* Verde institucional sólido (#388E3C) */
-  --primary-hover: #1B5E20; /* Verde ultra-profundo para hover y estados activos */
-  --secondary: #388E3C;     /* Verde secundario sincronizado */
+  --primary: #1B5E20;       /* Verde bosque institucional profundo de máximo contraste (Green 900) */
+  --primary-hover: #0D3813; /* Verde ultra-profundo en hover */
+  --secondary: #2E7D32;     /* Verde institucional secundario (Green 800) */
   --secondary-hover: #1B5E20;
-  --accent: #43A047;        /* Tono intermedio vibrante de acento */
+  --accent: #388E3C;        /* Verde medio vibrante de acento e iconografía (Green 700) */
   --accent-hover: #2E7D32;
-  --primary-soft: color-mix(in srgb, var(--primary) 14%, transparent);
+  --primary-soft: color-mix(in srgb, var(--primary) 12%, transparent);
   --accent-soft: color-mix(in srgb, var(--accent) 14%, transparent);
   --info: var(--primary);
 
@@ -32,9 +32,9 @@
   --cta-bg: linear-gradient(135deg, var(--accent), var(--primary));
 
   /* --- Tipografía y Textos (Alto Contraste y Cuidado Visual) --- */
-  --text-light: #092313;       /* Texto principal verde pizarra oscuro (máxima legibilidad) */
-  --text-muted-light: #164627; /* Texto secundario verde salvia profundo */
-  --text-soft: #0E321C;        /* Párrafos, citas y descripciones nítidas */
+  --text-light: #0E2E18;       /* Texto principal verde pizarra oscuro (máxima legibilidad) */
+  --text-muted-light: #285436; /* Texto secundario verde salvia profundo */
+  --text-soft: #164023;        /* Párrafos, citas y descripciones nítidas */
   --text: var(--text-light);
   --text-muted: var(--text-muted-light);
   --white: #FFFFFF;
@@ -44,13 +44,13 @@
   --title-end: var(--accent);
 
   /* --- Bordes y Sombras --- */
-  --border-color: rgba(9, 35, 19, 0.18);
-  --border-soft: rgba(9, 35, 19, 0.10);
+  --border-color: color-mix(in srgb, var(--primary) 16%, transparent);
+  --border-soft: color-mix(in srgb, var(--primary) 10%, transparent);
   --border: var(--border-color);
   --card-border: var(--border-color);
-  --shadow-color: #092313;
-  --shadow-soft: 0 8px 24px color-mix(in srgb, var(--shadow-color) 12%, transparent);
-  --shadow-card: 0 8px 25px color-mix(in srgb, var(--shadow-color) 14%, transparent);
+  --shadow-color: #0A2412;
+  --shadow-soft: 0 8px 24px color-mix(in srgb, var(--shadow-color) 8%, transparent);
+  --shadow-card: 0 8px 25px color-mix(in srgb, var(--shadow-color) 10%, transparent);
   --card-shadow: var(--shadow-card);
   --radius-sm: 6px;
   --radius-md: 12px;
@@ -58,30 +58,30 @@
   --radius-pill: 999px;
 
   /* --- Gradientes Temáticos Globales --- */
-  --gradient-unit-1: linear-gradient(135deg, var(--bg-main), var(--surface));
-  --gradient-unit-2: linear-gradient(135deg, var(--surface), var(--bg-section));
-  --gradient-unit-3: linear-gradient(135deg, var(--bg-section), var(--surface-hover));
+  --gradient-unit-1: linear-gradient(135deg, #FFFFFF, #E8F5E9);
+  --gradient-unit-2: linear-gradient(135deg, #E8F5E9, #C8E6C9);
+  --gradient-unit-3: linear-gradient(135deg, #C8E6C9, #D7EED9);
   --page-bg: var(--bg-deep);
 
   /* --- Paneles, Evaluaciones y Componentes Interactivos --- */
   --bg: var(--bg-main);
   --card-bg: var(--surface);
-  --soft-panel: color-mix(in srgb, var(--surface) 35%, transparent);
+  --soft-panel: color-mix(in srgb, var(--surface) 50%, transparent);
   --submenu-bg: color-mix(in srgb, var(--shadow-color) 25%, transparent);
   --intro-border: var(--accent);
   --case-color: var(--primary);
   --monster-color: var(--accent);
 
   /* --- Barras de Desplazamiento (Scrollbars) --- */
-  --scroll-track: var(--footer-bg);
+  --scroll-track: var(--bg-deep);
   --scroll-thumb: #81C784;
   --scroll-thumb-hover: var(--primary);
 
   /* --- Iconografía --- */
   --icon-blue: var(--primary);
   --icon-teal: var(--accent);
-  --icon-bg-blue: color-mix(in srgb, var(--icon-blue) 14%, transparent);
-  --icon-bg-teal: color-mix(in srgb, var(--icon-teal) 14%, transparent);
+  --icon-bg-blue: color-mix(in srgb, var(--icon-blue) 12%, transparent);
+  --icon-bg-teal: color-mix(in srgb, var(--icon-teal) 12%, transparent);
 
   /* --- Estados Semánticos --- */
   --success: #2E7D32;
