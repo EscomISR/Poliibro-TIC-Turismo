@@ -33,10 +33,10 @@
 }
 
 html {
-  color-scheme: light;
+  color-scheme: dark;
 }
 .brand-logo--ipn {
-  filter: brightness(0) saturate(100%) invert(27%) sepia(34%) saturate(1211%) hue-rotate(103deg) brightness(95%) contrast(92%);
+  filter: brightness(0) saturate(100%) invert(64%) sepia(50%) saturate(720%) hue-rotate(106deg) brightness(97%) contrast(93%);
 }
 .site-nav .nav-toggle {
   color: var(--text-light);

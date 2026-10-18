@@ -5,6 +5,12 @@
   "descripcion": "Construye hojas de cálculo, gráficos y tablas dinámicas a partir de sus elementos, fórmulas elementales y funciones.",
   "lema": "Tratamiento de datos, fórmulas, funciones avanzadas, tablas dinámicas y análisis cuantitativo para la toma de decisiones en turismo.",
   "duracion_horas": 24.0,
+  "video": {
+    "titulo": "3.1 Software para análisis e interpretación de la información y tratamiento de datos numéricos",
+    "url": "https://www.youtube.com/embed/dAulijSEl3Q",
+    "enlace": "https://youtu.be/dAulijSEl3Q",
+    "referencia": "Salas, I. [israel salas]. (2024). Software para análisis e interpretación de la información y tratamiento de datos numéricos [Video]. YouTube."
+  },
   "introduccion": [
     "El análisis, procesamiento e interpretación de datos cuantitativos es una competencia clave para la gestión hotelera, de agencias de viajes, transportación y desarrollo de destinos turísticos.",
     "En esta tercera unidad temática se profundiza en el uso de la hoja de cálculo como herramienta para el tratamiento de información numérica: desde el manejo de operadores y fórmulas, la aplicación de funciones estadísticas, lógicas y financieras, hasta la creación de gráficos y el diseño de tablas dinámicas para el análisis estadístico en turismo."

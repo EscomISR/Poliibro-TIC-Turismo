@@ -5,6 +5,12 @@
   "descripcion": "Analizan las Tecnologías de Información y Comunicación en el ámbito turístico a partir de sus fundamentos, la comunicación digital, los espacios de trabajo virtuales y el ámbito laboral.",
   "lema": "Fundamentos de las TIC, comunicación digital, plataformas virtuales y tecnologías especializadas para el sector turístico.",
   "duracion_horas": 24.0,
+  "video": {
+    "titulo": "1.1 Fundamentos de las TIC",
+    "url": "https://www.youtube.com/embed/o5Uh8_6mHpU",
+    "enlace": "https://youtu.be/o5Uh8_6mHpU",
+    "referencia": "Salas, I. [israel salas]. (2024). Fundamentos de las TIC [Video]. YouTube."
+  },
   "introduccion": [
     "Las Tecnologías de la Información y la Comunicación (TIC) constituyen la columna vertebral de la modernización, distribución y comercialización de los servicios turísticos a nivel global.",
     "A lo largo de esta primera unidad temática se abordan los conceptos esenciales de las TIC, el funcionamiento de Internet y los motores de búsqueda, las dinámicas de comunicación sincrónica y asincrónica, los espacios virtuales colaborativos y las plataformas esenciales del ecosistema turístico tales como sistemas de punto de venta (POS), sistemas de distribución global (GDS) y sistemas ERP."
