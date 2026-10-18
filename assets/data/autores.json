@@ -15,28 +15,33 @@
       "tipo": "docente",
       "personas": [
         {
-          "grado": "Profa Dra..",
+          "grado": "Dra.",
           "nombre": "Hermelinda Patricia Leyva López",
           "correo": "hleyval@ipn.mx",
           "foto": "assets/img/Hermelinda Patricia Leyva López.png",
           "semblanza": [
-            "El Prof. Hermelinda Patricia Leyva López es docente de la unidad de aprendizaje TIC aplicadas para el Turismo en la Escuela Superior de Turismo del Instituto Politécnico Nacional, Doctor en Educación, Maestría en Administración de Tecnologías de la Información, Maestría en Docencia y Desarrollo de Competencias, Maestría en Educación, Contador Público egresada de ESCA-IPN. Áreas de interés: Neurociencia de la Educación y Redes Neuronales, Metodología de la Investigación, Educación en línea con plataformas virtuales."
+            "Doctora en ciencias de la educación y Metodología de las ciencias del aprendizaje, es docente de la unidad de aprendizaje TIC aplicadas para el Turismo en la Escuela Superior de Turismo del Instituto Politécnico Nacional, Doctor en Educación, Maestría en Administración de Tecnologías de la Información, Maestría en Docencia y Desarrollo de Competencias, Maestría en Educación, Contador Público egresada de ESCA-IPN."
+          ],
+          "areas": [
+            "Neurociencia de la Educación y Redes Neuronales",
+            "Metodología de la Investigación",
+            "Educación en línea con plataformas virtuales",
           ]
         },
         {
-          "grado": "D. en E.",
+          "grado": "Dr.",
           "nombre": "Israel Salas Ramírez",
           "correo": "isalasr@ipn.mx",
           "foto": "assets/img/Israel_Salas_Ramirez.png",
           "semblanza": [
-            "Doctor y maestro en ciencias de la educación, e ingeniero en comunicaciones y electrónica por la ESIME Zacatenco del IPN. Docente de la Escuela Superior de Cómputo del Instituto Politécnico Nacional con amplia trayectoria en las asignaturas de Sistemas Operativos, Aplicaciones para Comunicaciones en Red y Arquitectura de Computadoras. Ha trabajado como responsable de unidades de Informática y generación de proyectos de Inversión Tecnológica."
+            "Doctor en ciencias de la educación y Metodología de las ciencias del aprendizaje, Maestro en ciencias de la educación, e ingeniero en comunicaciones y electrónica por la ESIME Zacatenco del IPN. Docente de la Escuela Superior de Cómputo del Instituto Politécnico Nacional con amplia trayectoria en las asignaturas de Sistemas Operativos, Aplicaciones para Comunicaciones en Red y Arquitectura de Computadoras. Ha trabajado como responsable de unidades de Informática y generación de proyectos de Inversión Tecnológica."
           ],
           "areas": [
-            "Sistemas Operativos",
-            "Administración de Redes",
-            "Protocolos de Comunicación y Sockets",
-            "Neurociencia en la Educación",
-            "Generación de Simuladores Médicos y Plataformas Virtuales"
+            "Cómputo de alto desempeño",
+            "Computer security",
+            "Aplicaciones para comunicaciones en red",
+            "Inteligencia Artificial Aplicada a la Solución de Problemas",
+            "Internet de las Cosas e Inteligencia Artificial"
           ]
         },
         {
@@ -45,8 +50,16 @@
           "correo": "bcruzt@ipn.mx",
           "foto": "assets/img/benjamin_cruz_torres.png",
           "semblanza": [
-            "Doctor en Doctor en Ciencias de la Computación y Maestro en Ciencias de la Computación egresado del Centro de Investigación en Computación del Instituto Politécnico Nacional. Entró a trabajar en el Instituto Politécnico Nacional en 2011 como Consultor de alta tecnología y posteriormente encargado de la Unidad Informática del Centro de Incubación de Empresas de Base Tecnológica, ahora la Dirección de Incubación de Empresas Tecnológicas. En 2016 y a la fecha comenzó a trabajar como docente en la Escuela Superior de Cómputo, impartiendo asignaturas del área de Sistemas Distribuidos. Actualmente funge como Presidente de la Academia de Sistemas Distribuidos dentro del Departamento de Ingeniería en Sistemas Computacionales."
+            "Doctor en Ciencias de la Computación y Maestro en Ciencias de la Computación egresado del Centro de Investigación en Computación del Instituto Politécnico Nacional. Entró a trabajar en el Instituto Politécnico Nacional en 2011 como Consultor de alta tecnología y posteriormente encargado de la Unidad Informática del Centro de Incubación de Empresas de Base Tecnológica, ahora la Dirección de Incubación de Empresas Tecnológicas. En 2016 y a la fecha comenzó a trabajar como docente en la Escuela Superior de Cómputo, impartiendo asignaturas del área de Sistemas Distribuidos. Actualmente funge como Presidente de la Academia de Sistemas Distribuidos dentro del Departamento de Ingeniería en Sistemas Computacionales."
+          ],
+          "areas": [
+            "Sistemas distribuidos",
+            "Administración de Redes",
+            "Cómputo en la nube",
+            "Inteligencia artificial",
+            "Administración de redes y las tecnologías web"
           ]
+
         }
       ]
     },
