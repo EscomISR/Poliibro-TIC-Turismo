@@ -36,7 +36,7 @@ html {
   color-scheme: dark;
 }
 .brand-logo--ipn {
-  filter: brightness(0) saturate(100%) invert(64%) sepia(50%) saturate(720%) hue-rotate(106deg) brightness(97%) contrast(93%);
+  filter: brightness(0) invert(1);
 }
 .site-nav .nav-toggle {
   color: var(--text-light);
